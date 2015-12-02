@@ -15,6 +15,7 @@
 		640DDBD81C0EC85A00AF2A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640DDBD61C0EC85A00AF2A93 /* LaunchScreen.storyboard */; };
 		640DDBE31C0EC85A00AF2A93 /* TapAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DDBE21C0EC85A00AF2A93 /* TapAnimationDemoTests.m */; };
 		640DDBEE1C0EC85A00AF2A93 /* TapAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DDBED1C0EC85A00AF2A93 /* TapAnimationDemoUITests.m */; };
+		640DDBFD1C0ED39900AF2A93 /* UIView+PacManAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DDBFC1C0ED39900AF2A93 /* UIView+PacManAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		640DDBE91C0EC85A00AF2A93 /* TapAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640DDBED1C0EC85A00AF2A93 /* TapAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAnimationDemoUITests.m; sourceTree = "<group>"; };
 		640DDBEF1C0EC85A00AF2A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640DDBFB1C0ED39900AF2A93 /* UIView+PacManAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PacManAnimation.h"; sourceTree = "<group>"; };
+		640DDBFC1C0ED39900AF2A93 /* UIView+PacManAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PacManAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				640DDBD61C0EC85A00AF2A93 /* LaunchScreen.storyboard */,
 				640DDBD91C0EC85A00AF2A93 /* Info.plist */,
 				640DDBC81C0EC85A00AF2A93 /* Supporting Files */,
+				640DDBFB1C0ED39900AF2A93 /* UIView+PacManAnimation.h */,
+				640DDBFC1C0ED39900AF2A93 /* UIView+PacManAnimation.m */,
 			);
 			path = TapAnimationDemo;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				640DDBD01C0EC85A00AF2A93 /* ViewController.m in Sources */,
 				640DDBCD1C0EC85A00AF2A93 /* AppDelegate.m in Sources */,
 				640DDBCA1C0EC85A00AF2A93 /* main.m in Sources */,
+				640DDBFD1C0ED39900AF2A93 /* UIView+PacManAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
